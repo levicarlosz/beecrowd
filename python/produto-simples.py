@@ -1,26 +1,25 @@
-# Leia dois valores inteiros. A seguir, calcule o produto entre estes dois valores e atribua esta operação à variável PROD. A seguir mostre a variável PROD com mensagem correspondente.   
+# Descrição:
+# Leia dois valores inteiros. A seguir, calcule o produto entre estes dois valores 
+# e atribua esta operação à variável PROD. Em seguida, mostre a variável PROD com 
+# a mensagem correspondente.
 
-# Entrada
-# O arquivo de entrada contém 2 valores inteiros.
+# Entrada:
+# O programa deve ler dois valores inteiros a partir da entrada padrão.
 
-# Saída
-# Imprima a mensagem "PROD" e a variável PROD conforme exemplo abaixo, com um espaço em branco antes e depois da igualdade. Não esqueça de imprimir o fim de linha após o produto, caso contrário seu programa apresentará a mensagem: “Presentation Error”.
+# Saída:
+# Imprima a mensagem "PROD" seguida de um espaço, um sinal de igual com espaços 
+# antes e depois, e o valor da variável PROD. Finalize a saída com uma quebra de linha. 
+# Atenção: não incluir a quebra de linha pode resultar em “Presentation Error”.
 
-# Exemplos de Entrada	Exemplos de Saída
-# 3
-# 9
 
-# PROD = 27
+# Exemplos de Entrada e Saída:
+# -----------------------------
+# Entrada         | Saída
+# --------------- | ---------------
+# 3  9            | PROD = 27
+# -30 10          | PROD = -300
+# 0  9            | PROD = 0
 
-# -30
-# 10
-
-# PROD = -300
-
-# 0
-# 9
-
-# PROD = 0
 
 a = int(input())
 b = int(input())
