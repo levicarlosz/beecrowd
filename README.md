@@ -1,1 +1,1 @@
-## Repositório Para os Código do Beecrowd
+## Repositório dedicado à resolução de desafios de código da plataforma Beecrowd
